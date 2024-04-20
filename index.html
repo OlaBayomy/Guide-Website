@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <title>在埃及中国人的指南 - 首页</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .navbar-light .navbar-nav .nav-link {
+            color: var(--dark);
+        }
+
+        #myUL {
+            position: absolute;
+            width: 100%;
+            /* Remove default list styling */
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #myUL li {
+            text-align: left;
+        }
+
+        #myUL li a:hover:not(.header) {
+            background-color: #eee;
+            /* Add a hover effect to all links, except for headers */
+        }
+
+
+        #logoForWide {
+            display: none;
+        }
+
+        .box {
+            display: none;
+        }
+
+        #logoForMop {
+            display: none;
+        }
+
+        @keyframes GFG {
+            0% {
+                transform: rotate(0deg) translateY(120px) rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg) translateY(120px) rotate(-360deg);
+            }
+        }
+
+
+        @media (max-width: 992px) {
+            .hero-header {
+                background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(img/home/bg-home.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding-top: 16%;
+                padding-bottom: 16%;
+            }
+
+            #logoForMop {
+                display: block;
+            }
+
+            #enjoy {
+                color: white;
+            }
+        }
+
+
+        @media (min-width: 992px) {
+
+            /* Apply these styles for large screens and above */
+            .my {
+                background-color: #86B817;
+                height: 500px;
+                width: 50%;
+                border-top-right-radius: 25%;
+                border-bottom-right-radius: 49%;
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+            }
+
+            .box {
+                display: block;
+                width: 60px;
+                height: 60px;
+                margin: auto;
+                animation: GFG 4.5s infinite linear;
+            }
+
+            .my img {
+                /*box-shadow: 5px 5px 7px #00000080;*/
+                /* x-offset y-offset blur color */
+                /* You can adjust the values to achieve the desired shadow effect */
+                /* border-radius: 80%;*/
+                /* transform: rotate(10deg);*/
+                filter: drop-shadow(5px 5px 5px #00000080)
+            }
+
+            #logoForWide {
+            display: block;
+        }
+
+       
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <a id="logoForMop" href="" class="navbar-brand p-0">
+                <h3 class="text-primary m-0"><i class="fa fa-map-marker-alt me-3"></i>‏在埃及中国人的指南</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">首页</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">服务</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="services/hotels.html" class="dropdown-item">酒店</a>
+                            <a href="services/transportation.html" class="dropdown-item">交通</a>
+                            <a href="services/restaurants.html" class="dropdown-item">美食</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid hero-header">
+            <div class="container-fluid py-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-5 pt-lg-5 mt-lg-5 text-center my">
+
+                        <div class="row justify-content-center animated slideInDown ">
+                            <div id="logoForWide" class="col-lg-6 pt-lg-5 mt-lg-5 text-center">
+                                <!--<a href="" class="navbar-brand p-0">
+                                    <h1 class="display-4 m-0"><i class="fa fa-map-marker-alt me-3"></i>Tourist</h1>
+                                </a>-->
+                                <a href="" class="navbar-brand p-0">
+                                    <h3 class="m-0"><i class="fa fa-map-marker-alt me-3"></i>‏在埃及中国人的指南</h3>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-5 mt-lg-5">
+                                <div class="box">
+                                    <img src="img/home/pyramids.png" style="height: 115px; width: 115px; ">
+                                </div>
+                                <div class="box" style=" animation-delay: 0.9s;">
+                                    <img src="img/home/abo.png" style="height: 115px; width: 115px; ">
+                                </div>
+                                <div class="box" style=" animation-delay: 1.8s">
+                                    <img src="img/home/Pharaoh.svg.png" style="height: 100px; width: 70px; ">
+                                </div>
+                                <!--<div class="box" style=" animation-delay: 2.7s">
+                                        <img src="flag-3d-round-250.png" style="height: 100px; width: 100px; ">
+                                    </div>-->
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-lg-5 pt-lg-5 mt-lg-5 text-center">
+                        <h3 id="enjoy" class="mb-4  mt-lg-5 animated slideInDown">和我们一起享受你的假期</h3>
+                        <div class="position-relative w-75 mx-auto animated slideInDown">
+                            <input class="form-control border-1 rounded-pill w-100 py-3 ps-4 pe-5 mb-1 fas fa-search"
+                                style="box-shadow: none;font-family:Arial, FontAwesome" type="text" id="myInput"
+                                onkeyup="myFunction()" placeholder="例如: 开罗">
+                            <button type="button"
+                                class="btn btn-primary rounded-pill py-2 px-4 position-absolute top-0 end-0 me-2"
+                                style="margin-top: 7px;">搜索</button>
+
+                            <ul id="myUL" style="visibility: hidden;border: 1px solid black;"><!--change here-->
+
+                                <li><a href="services/governorates/marsa-matrouh.html" class="list-group-item">马特鲁</a>
+                                </li>
+                                <li><a href="services/governorates/cairo&giza.html" class="list-group-item">开罗和吉萨</a>
+                                </li>
+                                <li><a href="services/governorates/fayoum.html" class="list-group-item">法尤姆</a></li>
+                                <li><a href="services/governorates/luxor.html" class="list-group-item">卢克索</a></li>
+                                <li><a href="services/governorates/alex.html" class="list-group-item">亚历山大</a>
+                                </li>
+                                <li><a href="services/governorates/aswan.html" class="list-group-item">阿斯旺</a></li>
+                                <li><a href="services/governorates/sinai.html" class="list-group-item">西奈半岛</a></li>
+                                <li><a href="services/governorates/sinai.html#dahabSection"
+                                        class="list-group-item">达哈卜</a></li>
+                                <li><a href="services/governorates/sinai.html#sharmelsheikhSection"
+                                        class="list-group-item">沙姆沙伊赫</a></li>
+                                <li><a href="services/governorates/sinai.html#rassedrSection"
+                                        class="list-group-item">拉斯西德尔</a></li>
+                                <li><a href="services/governorates/sinai.html#nuweibaaSection"
+                                        class="list-group-item">努韦巴</a></li>
+                                <li><a href="services/governorates/sinai.html#tabaSection"
+                                        class="list-group-item">塔巴</a></li>
+                                <li><a href="services/governorates/redsea.html" class="list-group-item">红海省</a></li>
+                                <li><a href="services/governorates/redsea.html#gounaSection"
+                                        class="list-group-item">埃尔古纳</a></li>
+                                <li><a href="services/governorates/redsea.html#hurghadaSection"
+                                        class="list-group-item">赫尔格达</a></li>
+                                <li><a href="services/governorates/redsea.html#marsaalamSection"
+                                        class="list-group-item">穆尔西·阿拉姆</a></li>
+                                <li><a href="services/governorates/redsea.html#suezSection"
+                                        class="list-group-item">苏伊士</a></li>
+                                <li><a href="services/governorates/redsea.html#safagaSection"
+                                        class="list-group-item">萨法加</a></li>
+                                <li><a href="services/governorates/redsea.html#sahlhasheeshSection"
+                                        class="list-group-item">萨尔·哈希什</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h1 class="mb-5">我们的服务</h1>
+            </div>
+            <div class="row g-4">
+
+                <a href="#governoratesSection" class="col-lg-6 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-user text-primary mb-4"></i>
+                            <h5>路线行程</h5>
+                            <!--<p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>-->
+                        </div>
+                    </div>
+                </a>
+                <a href="services/hotels.html" class="col-lg-6 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-hotel text-primary mb-4"></i>
+                            <h5>酒店</h5>
+                            <!--<p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>-->
+                        </div>
+                    </div>
+                </a>
+
+                <a href="services/transportation.html" class="col-lg-6 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-bus text-primary mb-4"></i>
+                            <h5>交通</h5>
+                            <!--<p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>-->
+                        </div>
+                    </div>
+                </a>
+
+                <a href="services/restaurants.html" class="col-lg-6 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fas fa-utensils text-primary mb-4"></i>
+                            <h5>美食</h5>
+                            <!--<p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>-->
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Destination Start -->
+    <div id="governoratesSection" class="container-xxl py-5 destination">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h1 class="mb-5">著名景点</h1>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-3 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                    <a class="position-relative d-block overflow-hidden" href="services/governorates/cairo&giza.html">
+                        <img class="img-fluid" src="img/cairo&giza/bg-cairo&giza.jpg" alt="">
+                        <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
+                            开罗和吉萨</div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-12 wow zoomIn" data-wow-delay="0.2s">
+                    <a class="position-relative d-block overflow-hidden" href="services/governorates/luxor.html">
+                        <img class="img-fluid" src="img/luxor/bg-luxor.jpg" alt="">
+                        <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
+                            卢克索</div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                    <a class="position-relative d-block overflow-hidden" href="services/governorates/aswan.html">
+                        <img class="img-fluid" src="img/aswan/bg-aswan.jpeg" alt="">
+                        <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
+                            阿斯旺</div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-12 wow zoomIn" data-wow-delay="0.4s">
+                    <a class="position-relative d-block overflow-hidden"
+                        href="services/governorates/marsa-matrouh.html">
+                        <img class="img-fluid" src="img/matroh/bg-matrouh.jpg" alt="">
+                        <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
+                            马特鲁</div>
+                    </a>
+                </div>
+
+
+
+                <div class="col-lg-3 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                    <a class="position-relative d-block overflow-hidden" href="services/governorates/alex.html">
+                        <img class="img-fluid" src="img/alex/bg-alex.jpg" alt="">
+                        <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
+                            亚历山大</div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-12 wow zoomIn" data-wow-delay="0.6s">
+                    <a class="position-relative d-block overflow-hidden" href="services/governorates/fayoum.html">
+                        <img class="img-fluid" src="img/fayoum/Faiyum-Oasis.jpg" alt="">
+                        <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
+                            法尤姆</div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-12 wow zoomIn" data-wow-delay="0.7s">
+                    <a class="position-relative d-block overflow-hidden" href="services/governorates/redsea.html">
+                        <img class="img-fluid" src="img/redsea/bg-redsea.jpg" alt="">
+                        <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
+                            红海省</div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-12 wow zoomIn" data-wow-delay="0.8s">
+                    <a class="position-relative d-block overflow-hidden" href="services/governorates/sinai.html">
+                        <img class="img-fluid" src="img/sinai/bg-sinai.jpg" alt="">
+                        <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
+                            西奈半岛</div>
+                    </a>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+    <!-- Destination Start -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">在埃及中国人的指南</a>, All Right Reserved.
+                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                            Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
